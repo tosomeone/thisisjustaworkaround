@@ -1,0 +1,28 @@
+{
+    "name": "tdavis/phantommagick",
+    "description": "PhantomMagick provides a simple API to ease the process of converting HTML to PDF or images",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tdavis ",
+            "email": "e"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "~0.9",
+        "phpunit/phpunit": "~4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tdavis\\PhantomMagick\\" : "src/" 
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tdavis\\PhantomMagick\\Test\\": "tests"
+        }
+    }
+}
